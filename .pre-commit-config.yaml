@@ -1,0 +1,15 @@
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.11.11
+    hooks:
+      - id: ruff
+        args: [--fix]
+      - id: ruff-format
+
+  - repo: local
+    hooks:
+      - id: check-file-lines
+        name: Check max file line count (600)
+        entry: python scripts/check_file_lines.py
+        language: python
+        types: [python]

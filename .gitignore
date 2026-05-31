@@ -1,0 +1,71 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+ENV/
+
+# uv
+.uv/
+
+# Distribution / build
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.coveragerc
+
+# Type checkers / linters
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.dmypy.json
+dmypy.json
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# pyenv / pyproject
+.python-version.bak
+
+# uv lock — committed for apps, so NOT ignored
+# uv.lock
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+ehthumbs.db
